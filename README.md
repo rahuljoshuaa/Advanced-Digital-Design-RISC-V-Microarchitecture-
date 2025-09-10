@@ -14,7 +14,7 @@ The main goals achieved include:
 
 ![Figure 1: Block diagram of the designed RISC-V CPU](RISC-V_Microarchitecture.png)  
 
-![Figure 2: Arithmetic Logic Unit (ALU) internal design](Architecture_Logic_Unit.png)  
+![Figure 2: Arithmetic Logic Unit (ALU) internal design](Arithmetic_Logic_Unit.png)  
 
 ---
 
@@ -79,5 +79,5 @@ The main goals achieved include:
 ---
 
 ## Author  
-**Name:** Dylan Lim  
+**Name:** Rahul Thanasekaran 
 **Institution:** University College London (UCL)  
