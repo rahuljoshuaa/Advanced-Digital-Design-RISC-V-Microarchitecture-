@@ -1,18 +1,18 @@
 # Advanced Digital Design RISC-V Microarchitecture
 
 ## Overview  
-This project focuses on the **design, simulation, and verification of a single-cycle RISC-V CPU** using SystemVerilog. It demonstrates the creation of a hierarchical CPU design, simulation of individual modules and the complete processor, and testing with custom RISC-V assembly programs.  
+This project focuses on the design, simulation, and verification of a single-cycle RISC-V CPU using SystemVerilog. It demonstrates the creation of a hierarchical CPU design, simulation of individual modules and the complete processor, and testing with custom RISC-V assembly programs.  
 
 The main goals achieved include:  
-- Implementing a **RISC-V CPU** in SystemVerilog with modular hierarchy  
-- Simulating and debugging components using **Icarus Verilog** and **GTKWave**  
-- Developing and verifying **RISC-V assembly programs** for arithmetic, branching, and memory operations  
+- Implementing a RISC-V CPU in SystemVerilog with modular hierarchy  
+- Simulating and debugging components using Icarus Verilog and GTKWave  
+- Developing and verifying RISC-V assembly programs for arithmetic, branching, and memory operations  
 
 ---
 
 ## Block Diagram of the Designed RISC-V CPU  
 
-![Figure 1: Block diagram of the designed RISC-V CPU](figure1.png)  
+![Figure 1: Block diagram of the designed RISC-V CPU](RISC-V Microarchitecture.png)  
 
 ![Figure 2: Arithmetic Logic Unit (ALU) internal design](figure2.png)  
 
