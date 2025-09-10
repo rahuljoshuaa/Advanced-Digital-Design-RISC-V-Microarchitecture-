@@ -14,20 +14,20 @@ The main goals achieved include:
 
 ![Figure 1: Block diagram of the designed RISC-V CPU](RISC-V_Microarchitecture.png)  
 
-![Figure 2: Arithmetic Logic Unit (ALU) internal design](figure2.png)  
+![Figure 2: Arithmetic Logic Unit (ALU) internal design](Architecture_Logic_Unit.png)  
 
 ---
 
 ## Instruction Formats and Subset of RV32I Instructions  
 
 ### Table 1: RISC-V Instruction Formats  
-![Table 1](table1.png)  
+![Table 1](RISC-V_Instruction_Formats.png)  
 
 ### Table 2: Supported Subset of RV32I Base Instructions  
-![Table 2](table2.png)  
+![Table 2](Subset_of_RV32I_Base_Instructions.png)  
 
 ### Table 3: ImmSrc Control Signals and Immediate Extensions  
-![Table 3](table3.png)  
+![Table 3](ImmSrc_and_Immediate_Extend_Values.png)  
 
 ---
 
