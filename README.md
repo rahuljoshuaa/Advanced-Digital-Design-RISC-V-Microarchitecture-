@@ -12,7 +12,7 @@ The main goals achieved include:
 
 ## Block Diagram of the Designed RISC-V CPU  
 
-![Figure 1: Block diagram of the designed RISC-V CPU](RISC-V Microarchitecture.png)  
+![Figure 1: Block diagram of the designed RISC-V CPU](RISC-V_Microarchitecture.png)  
 
 ![Figure 2: Arithmetic Logic Unit (ALU) internal design](figure2.png)  
 
