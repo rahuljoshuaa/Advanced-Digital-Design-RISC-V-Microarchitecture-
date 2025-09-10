@@ -1,0 +1,20 @@
+    lui x10, 0x80000        # x10 = 0x80000000
+    addi x10, x10, -4       # x10 = 0x7FFFFFFC
+    lw x1, 0(x10)           # Load value from CPUIn into x1
+    addi x2, x0, 0          # x2 = sum (bit count)
+    addi x3, x0, 0          # x3 = i (bit counter)
+    addi x5, x0, 8          # x5 = 8 (loop condition)
+
+loop:
+    andi x4, x1, 1          # Extract least significant bit (LSB)
+    beq x4, x0, skip        # If LSB is 0, skip increment
+    addi x2, x2, 1          # If LSB is 1, increment sum
+
+skip:
+    srli x1, x1, 1          # Logical right shift x1 (move to next bit)
+    addi x3, x3, 1          # Increment bit counter
+    beq x3, x5, finish      # If i == 8, finish
+    jal x0, loop            # Jump back to loop
+
+finish:
+    sw x2, 0(x10)           # Store sum result in CPUOut memory
