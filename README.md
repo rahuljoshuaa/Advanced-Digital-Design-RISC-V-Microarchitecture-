@@ -79,6 +79,6 @@ The main goals achieved include:
 ---
 
 ## Author  
-Name: Rahul Jo-Shua Thanasekaran \
-Deparment of Electronic & Electrical Engineering\
-Institution: University College London (UCL)  
+Rahul Jo-Shua Thanasekaran \
+Department of Electronic & Electrical Engineering\
+University College London (UCL)  
